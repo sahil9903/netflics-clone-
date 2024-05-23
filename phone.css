@@ -1,0 +1,154 @@
+@media screen and (max-width: 518px) {
+
+    .first,
+    .second,
+    .third,
+    .fourth {
+        flex-wrap: wrap;
+    }
+    nav{
+        max-width: 85vw;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .secImg img {
+        width: 364px;
+    }
+
+    .secImg2 img {
+        width: 364px;
+        padding-bottom: 30px;
+    }
+
+    .secImg3 img {
+        width: 364px;
+    }
+
+    .secImg video {
+        width: 264px;
+        top: 57px;
+        right: 52px;
+    }
+    .secImg3 video {
+        width: 264px;
+        top: 57px;
+        right: 52px;
+    }
+    .hero> :nth-child(1) {
+        font-size: 32px;
+    }
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+    .main input{
+        padding: 7px 53px 8px 14px;
+    }
+    .hero2{
+   
+        gap: 25px;
+    }
+    .hero2> :nth-child(1) {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .hero2> :nth-child(2) {
+        font-size: 16px;
+        width: 200px;
+    }
+    .hero3> :nth-child(1) {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .hero3> :nth-child(2) {
+        font-size: 16px;
+    }
+    .hero4{
+        gap: 25px;
+    }
+    .hero4> :nth-child(1) {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .hero4> :nth-child(2) {
+        font-size: 16px;
+    }
+    
+    .hero5{
+        gap: 25px;
+    }
+    .hero5> :nth-child(1) {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .hero5> :nth-child(2) {
+        font-size: 16px;
+    }
+    .hero6{
+        gap: 25px;
+    }
+    .hero6> :nth-child(1) {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .hero6> :nth-child(2) {
+        font-size: 16px;
+    }
+    .hero6 button {
+        font-size: 16px;
+    }
+    .hero7> :nth-child(1) {
+        font-size: 15px;
+        
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    .hero2{
+   
+        gap: 25px;
+    }
+    .hero2> :nth-child(1) {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .hero2> :nth-child(2) {
+        font-size: 20px;
+        width: 250px;
+    }
+}
+@media screen and (max-width: 1300px) {
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        color: white;
+        gap: 25px;
+    }
+    footer{
+        max-width: 90vw;
+    }
+    .hero-buttons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+    .footer-item{
+        align-items: center;
+    }
+    .main {
+        height: 70vh;
+        
+    }
+    
+    .main .box {
+        height: 70vh;
+    }
+    
+    
+}
